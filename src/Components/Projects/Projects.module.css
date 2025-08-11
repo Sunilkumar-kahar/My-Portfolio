@@ -21,15 +21,23 @@
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    /* overflow: hidden; */
 }
 
 .projectCard{
-    width: min-content;
+    width:100%;
+    max-width: 400px;
     padding: 3vw;
     margin: 0.27rem;
     border: 2px solid white;
     border-radius: 0.9vw;
     background-color: var(--color-secondary);
+    /* display: flex;
+    flex-direction: column; */
+}
+
+.projectImg{
+    width: 100%;
 }
 
 .project_name{

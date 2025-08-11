@@ -11,7 +11,7 @@ function Projects(){
                     project.map((proj)=>{
                         return(
                             <div className={style.projectCard}>
-                                <img src = {getImageUrl(proj.imgSrc)}></img>
+                                <img className={style.projectImg} src = {getImageUrl(proj.imgSrc)}></img>
                                 <h2 className={style.project_name}>{proj.title}</h2>
                                 <h3 className={style.desc}>{proj.description}</h3>
                                 <h3 className={style.techSkill}>Technology:</h3>
