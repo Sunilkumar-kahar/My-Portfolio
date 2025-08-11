@@ -1,0 +1,22 @@
+[
+    {
+        "title": "C language",
+        "imageSrc": "skills/c language.png"
+    },
+    {
+        "title": "C++",
+        "imageSrc": "skills/cpp.png"
+    },
+    {
+        "title": "Java",
+        "imageSrc": "skills/java.png"
+    },
+    {
+        "title": "Python",
+        "imageSrc": "skills/python.png"
+    },
+    {
+        "title": "Django",
+        "imageSrc": "skills/django.png"
+    }
+]

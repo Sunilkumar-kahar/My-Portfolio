@@ -1,0 +1,224 @@
+@import '../../vars.css';
+
+.skill_and_experience_section{
+    /* font-family: var(--font-roboto); */
+    color: var(--color-text);
+    display: flex;
+    /* flex-direction: column; */
+    padding: 0vw 3vw;
+    margin: 0vw 2vw;
+    margin-top: 5vw;
+    /* border: 2px solid white; */
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.skill_section, .experience_section{
+    margin-top: 2vw;
+    max-width: 50%;
+}
+
+.skill_title, .experience_title{
+    font-size: 2.2rem;
+    margin-bottom: 2vw;
+    letter-spacing: 1.75px;
+}
+
+.Frontend, .Backend, .Database, .Tools{
+    border: 2px solid white;
+    margin-bottom: 0.5vw;
+    padding: 0px 2vw;
+}
+
+.sub_title, .position{
+    font-size: 1.8rem;
+    margin: 0.5vw 0px;
+}
+
+.container_Frontend, .container_Backend, .container_Database, .container_Tools{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.skill_front, .skill_back, .skill_db, .skill_tool{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: space-between; */
+    /* border: 2px solid red; */
+    margin: 1vw;
+}
+
+.skillImgDiv{
+    /* height: 120px;
+    width: 120px; */
+    /* border: 2px solid blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-secondary);
+    padding: 1rem;
+    border-radius: 50%;
+}
+
+/* .logo{
+   
+} */
+
+.logo_name{
+    font-size: 1.3rem;
+    margin-top: 0.3vw;
+}
+
+.position{
+    /* font-size: 1.8rem; */
+    margin: 1vw 0px;
+}
+
+.Companye, .date, .location{
+    font-size: 1.5rem;
+    margin-bottom: 0.5vw;
+}
+
+.experienceUL{
+    margin: 3vw 0px;
+    margin-left: 1.5vw;
+}
+
+.exp_point{
+    font-size: 1.4rem;
+    margin-bottom: 1vw;
+}
+
+@media screen and (max-width: 600px){
+    .skill_and_experience_section{
+        flex-direction: column;
+    }
+
+    .skillImgDiv{
+        padding: 0.7rem;
+    }
+
+    .logo{
+        width:10dvi;
+    }
+
+    .skill_section, .experience_section{
+        max-width: unset;
+    }
+
+    .skill_title, .experience_title{
+        font-size: 1.5rem;
+    }
+    
+    .sub_title, .position{
+        font-size: 1.2rem;
+    }
+
+    .logo_name{
+        font-size: 0.9rem;
+    }
+
+    .Companye, .date, .location{
+        font-size: 1.17rem;
+    }
+
+    .exp_point{
+        font-size: 1.1rem;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 768px) {
+    .skill_and_experience_section{
+        flex-direction: column;
+    }
+
+    .skillImgDiv{
+        padding: 0.7rem;
+    }
+
+    .logo{
+        width:8dvi;
+    }
+
+    .skill_section, .experience_section{
+        max-width: unset;
+    }
+
+    .skill_title, .experience_title{
+        font-size: 1.5rem;
+    }
+
+    .sub_title, .position{
+        font-size: 1.4rem;
+    }
+
+    .logo_name{
+        font-size: 1.1rem;
+    }
+
+    .Companye, .date, .location{
+        font-size: 1.3rem;
+    }
+
+    .exp_point{
+        font-size: 1.27rem;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    .skill_and_experience_section{
+        flex-direction: column;
+    }
+
+    .skillImgDiv{
+        padding: 0.7rem;
+    }
+
+    .skill_section, .experience_section{
+        max-width: unset;
+    }
+
+    .skill_title, .experience_title{
+        font-size: 1.5rem;
+    }
+
+    .sub_title, .position{
+        font-size: 1.35rem;
+    }
+
+    .Companye, .date, .location{
+        font-size: 1.3rem;
+    }
+
+    .exp_point{
+        font-size: 1.27rem;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    .skillImgDiv{
+        padding: 1rem;
+    }
+
+    .logo{
+        width:5dvi;
+    }
+
+    .skill_title, .experience_title{
+        font-size: 1.9rem;
+    }
+
+    .sub_title, .position{
+        font-size: 1.6rem;
+    }
+
+    .Companye, .date, .location{
+        font-size: 1.4rem;
+    }
+
+    .exp_point{
+        font-size: 1.3rem;
+    }
+}

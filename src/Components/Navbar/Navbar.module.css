@@ -1,0 +1,129 @@
+@import '../../vars.css';
+nav{
+    padding: 0px 5vw;
+    padding-top: 3vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 2px solid green; */
+}
+
+.nameLogo{
+    color: var(--color-text);
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.menuIcon{
+    display: none;
+}
+
+.webMenu{
+    display: flex;
+    justify-content: space-around;
+    gap: 3rem;
+}
+
+.nav_li{
+    list-style: none;
+    align-items: center;
+    display: flex;
+}
+
+nav a{
+    color: var(--color-text);
+    font-size: 1.4rem;
+    text-decoration: none;
+}
+
+/* @media screen and (min-width: 600px) and (max-width: 768px) { */
+@media screen and (max-width: 768px) {
+    .nameLogo{
+        font-size: 1.6rem;
+    }
+
+    .menuIcon{
+        color: var(--color-text);
+        font-size: 2.5rem;
+        display: inline-block;
+        cursor: pointer;
+    }
+
+    nav{
+        position: relative;
+    }
+
+    .webMenu{
+        display: none;
+    }
+
+    .mobileMenu{
+        min-width: 15%;
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        background: rgb(25, 55, 109);
+        background: linear-gradient(
+            0deg,
+            rgba(25, 55, 109, 0.5) 0%,
+            rgba(25, 55, 109, 1) 100%
+        );
+        top: 100%;
+        right: 5%;
+        align-items: center;
+        /* border: 2px solid blue; */
+        gap: 0.5rem;
+    }
+
+    .nav_li{
+        /* padding: 2vw; */
+        /* margin: 2vw; */
+        width: 100%;
+    }
+    nav a{
+        font-size: 1.3rem;
+        width: 100%;
+        text-align: center;
+        padding: 2vw;
+    }
+
+    nav a:hover{
+        background-color: var(--color-secondary);
+        border: 2px solid white;
+    }
+
+}
+
+/* @media screen and (max-width: 600px){
+    body{
+        background-color: orange;
+    }
+} */
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    .nameLogo{
+        font-size: 1.5rem;
+    }
+
+    .webMenu{
+        gap: 1.3rem;
+    }
+
+    nav a{
+        font-size: 1.1rem;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    .nameLogo{
+        font-size: 1.9rem;
+    }
+
+    .webMenu{
+        gap: 2rem;
+    }
+
+    nav a{
+        font-size: 1.2rem;
+    }
+}

@@ -1,0 +1,65 @@
+@import '../../vars.css';
+
+footer{
+    color:white;
+    background-color: var(--color-secondary);
+    /* background-color: rgba(12, 12, 12, 0.7); */
+    margin-top: 2vw;
+    padding: 0.7vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+}
+
+.footer_logo{
+    font-size: 2rem;
+    margin: 0.5rem 4rem;
+}
+
+@media screen and (max-width: 600px){
+    .connect_title{
+        font-size: 0.7rem;
+        margin-left: 1rem;
+    }
+
+    .footer_logo{
+        font-size: 1.3rem;
+        margin: 0.5rem 1rem;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 768px) {
+    .footer_logo{
+        font-size: 2.2rem;
+        /* margin: 0.5vw 4vw; */
+    }
+
+    .connect_title{
+        font-size: 0.9rem;
+        margin-left: 1rem;
+    }
+
+    .footer_logo{
+        font-size: 2rem;
+        margin: 0.5rem 1.5rem;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    .footer_logo{
+        font-size: 2rem;
+        margin: 0.5rem 2rem;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    .footer_logo{
+        font-size: 2rem;
+        margin: 0.5rem 3rem;
+    }
+}

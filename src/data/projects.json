@@ -1,0 +1,26 @@
+[
+    {
+        "title": "Color Game",
+        "imgSrc": "projects/project.png",
+        "description": "This is a project made to learn 'Event handling' in JavaScript.",
+        "Skills": ["HTML", "CSS", "JavaScript"],
+        "demo": "https://sunilkumar-kahar.github.io/Color_Game/",
+        "source": "https://github.com/Sunilkumar-kahar/Color_Game"
+    },
+    {
+        "title": "My Portfolio Website",
+        "imgSrc": "projects/project.png",
+        "description": "A responsive portfolio website to showcase my skills, projects, and resume with interactive sections and smooth navigation.",
+        "Skills": ["HTML", "CSS", "JavaScript", "React"],
+        "demo": "#",
+        "source": "#"
+    },
+    {
+        "title": "Algorithmic Trading Order Book Simulator",
+        "imgSrc": "projects/project.png",
+        "description": "A trading engine that matches buy and sell orders like an exchange, supporting order placement, updates, and partial fills.",
+        "Skills": ["C++", "STL", "Data Structures", "Algorithms"],
+        "demo": "#",
+        "source": "https://github.com/Sunilkumar-kahar/Algorithmic-Trading-Order-Book-Simulator"
+    }
+]

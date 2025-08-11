@@ -1,0 +1,184 @@
+@import "../../vars.css";
+
+.project_section{
+    color: var(--color-text);
+    font-family: var(--font-roboto);
+    padding: 2vw 3vw;
+    margin: 0vw 2vw;
+    margin-top: 5vw;
+    background-color: rgba(12, 12, 12, 0.7);
+    border-radius: 0.9vw;
+}
+
+.project_title{
+   font-size: 2.2rem;
+   margin-bottom: 2vw;
+   letter-spacing: 1.75px;
+}
+
+.project_container{
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.projectCard{
+    width: min-content;
+    padding: 3vw;
+    margin: 0.27rem;
+    border: 2px solid white;
+    border-radius: 0.9vw;
+    background-color: var(--color-secondary);
+}
+
+.project_name{
+    font-size: 1.7rem;
+    font-weight: 800;
+    margin: 0.5rem 0px;
+}
+
+.desc{
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin: 0.5rem;
+}
+
+.techSkill, .project_links{
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.skills, .project_link{
+    border: 2px solid white;
+    display: inline-block;
+    padding: 0.35vw;
+    margin: 0.4rem;
+    border-radius: 1rem;
+    background-color: var(--color-bg);
+    font-size: 1rem;
+}
+
+.project_links_div{
+    display: flex;
+    justify-content: space-around;
+}
+
+.project_link{
+    text-decoration: none;
+    color: var(--color-text);
+    display: inline-block;
+    width: 40%;
+    text-align: center;
+}
+
+/* -------------------------------------- */
+
+@media screen and (max-width: 600px){
+    .project_title{
+        font-size: 1.5rem;
+    }
+
+    .projectCard{
+        margin: 1.2rem;
+    }
+
+    .project_name{
+        font-size: 1.4rem;
+    }
+
+    .techSkill, .project_links{
+        font-size: 1.25rem;
+    }
+
+    .skills, .project_link{
+        font-size: 1rem;
+        padding: 0.4rem;
+    }
+
+    .desc{
+        font-size: 1.25rem;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 768px) {
+    .project_title{
+        font-size: 1.5rem;
+    }
+
+    .projectCard{
+        margin: 1.2rem;
+    }
+
+    .project_name{
+        font-size: 1.45rem;
+    }
+
+    .techSkill, .project_links{
+        font-size: 1.3rem;
+    }
+
+    .skills, .project_link{
+        font-size: 1rem;
+        padding: 0.4rem;
+    }
+
+    .desc{
+        font-size: 1.25rem;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    .project_title{
+        font-size: 1.5rem;
+    }
+
+    .projectCard{
+        margin: 1.2rem;
+    }
+
+    .project_name{
+        font-size: 1.45rem;
+    }
+
+    .techSkill, .project_links{
+        font-size: 1.3rem;
+    }
+
+    .skills, .project_link{
+        font-size: 1rem;
+        padding: 0.4rem;
+    }
+
+    .desc{
+        font-size: 1.25rem;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    .project_title{
+        font-size: 1.9rem;
+    }
+
+    .projectCard{
+        margin: 1.5rem;
+    }
+
+    .project_name{
+        font-size: 1.5rem;
+    }
+
+    .techSkill, .project_links{
+        font-size: 1.2rem;
+    }
+
+    .skills, .project_link{
+        font-size: 0.9rem;
+        padding: 0.3rem;
+    }
+
+    .desc{
+        font-size: 1.1rem;
+    }
+}
