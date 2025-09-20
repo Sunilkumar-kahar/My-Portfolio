@@ -1,5 +1,13 @@
 [
     {
+        "title": "Todo List Web App",
+        "imgSrc": "projects/project.png",
+        "description": "This project is a full-stack Django + React application. The backend folder contains a Django REST API (with JWT authentication and PostgreSQL/SQLite support) that manages users and tasks. The frontend folder is a React single-page app that consumes this API to provide a responsive task-management interface.",
+        "Skills": ["RESTful API", "Django", "React", "JWT", "Django ORM"],
+        "demo": "https://django-react-todo.netlify.app/",
+        "source": "https://github.com/Sunilkumar-kahar/Todo-List-App-React-Django"
+    },
+    {
         "title": "Color Game",
         "imgSrc": "projects/project.png",
         "description": "This is a project made to learn 'Event handling' in JavaScript.",
