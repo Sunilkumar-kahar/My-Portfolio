@@ -8,6 +8,14 @@
         "source": "https://github.com/Sunilkumar-kahar/Todo-List-App-React-Django"
     },
     {
+        "title": "Vehicle Management System",
+        "imgSrc": "projects/project.png",
+        "description": "A role-based Vehicle Management web application built using Django. The system allows managing vehicle records with controlled access based on user roles. It supports full CRUD operations on vehicles and enforces permissions using Django’s authentication system and permission mixins. Security features such as XSS protection and IP filtering via custom middleware are also implemented.",
+        "Skills": ["Django", "Python", "Django ORM", "Role-Based Access Control", "Class-Based Views", "Authentication & Permissions", "Middleware"],
+        "demo": "https://sunilkumar.pythonanywhere.com/",
+        "source": "https://github.com/Sunilkumar-kahar/Base-CBV-Vehicle-Management"
+    },
+    {
         "title": "Color Game",
         "imgSrc": "projects/project.png",
         "description": "This is a project made to learn 'Event handling' in JavaScript.",
